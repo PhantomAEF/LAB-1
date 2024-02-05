@@ -1,0 +1,50 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\M328PDEF.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\Debug\LAB 1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LAB 1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LAB 1.map</FILE>
+  <FILE>LAB 1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Setup><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>25</LINE></Setup>
+  <loop><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>55</LINE></loop>
+  <PrimerBoton><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>56</LINE></PrimerBoton>
+  <Pres1><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>94</LINE></Pres1>
+  <SegundoBoton><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>61</LINE></SegundoBoton>
+  <Pres2><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>101</LINE></Pres2>
+  <TercerBoton><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>66</LINE></TercerBoton>
+  <Pres3><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>108</LINE></Pres3>
+  <CuartoBoton><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>71</LINE></CuartoBoton>
+  <Pres4><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>115</LINE></Pres4>
+  <QuintoBoton><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>76</LINE></QuintoBoton>
+  <Pres5><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>122</LINE></Pres5>
+  <Regresaralloop><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>80</LINE></Regresaralloop>
+  <delay><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>86</LINE></delay>
+  <delay1><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>89</LINE></delay1>
+  <incre><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>129</LINE></incre>
+  <decre><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>136</LINE></decre>
+  <incre2><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>143</LINE></incre2>
+  <decre2><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>150</LINE></decre2>
+  <suma><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>157</LINE></suma>
+  <LEDS1><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>167</LINE></LEDS1>
+  <LEDS2><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>171</LINE></LEDS2>
+  <carry><FILE>C:\Users\alane\Documents\Atmel Studio\7.0\LAB 1\LAB 1\main.asm</FILE><LINE>180</LINE></carry>
+ </LABELS>
+</ASSEMBLER_INFO>
