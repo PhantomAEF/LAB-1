@@ -38,7 +38,7 @@ Setup:
 	LDI R16, 0b1111_1111 //PORTD como salidas
 	OUT DDRD, R16
 
-	LDI R16, 0b0010_1111 //PORTD como salidas
+	LDI R16, 0b0010_1111 //PORTb como salidas
 	OUT DDRB, R16
 
 	LDI R19, 0x00 //reset de variables de cuenta
@@ -128,28 +128,28 @@ Pres5:
 
 incre:
     INC R19 //Incrementa la cuenta de la primera fila de leds
-    SBRC R19, 4 ; Limitar el contador a 4 bits
+    SBRC R19, 4 // Limitar el contador a 4 bits
     CLR R19 //De ser necesario elimina el registro por overflow
 	RJMP LEDS1
 	RJMP loop
 
 decre:
 	DEC R19 //Decrementa la cuenta de la primera fila de leds
-    SBRC R19, 7 ; Limitar el contador a no tener numeros negativos
+    SBRC R19, 7 // Limitar el contador a no tener numeros negativos
 	CLR R19 //De ser necesario elimina el registro por overflow
 	RJMP LEDS1
 	RJMP loop
 
 incre2:
 	INC R17 //Incrementa la cuenta de la segunda fila de leds
-    SBRC R17, 4 ; Limitar el contador a 4 bits
+    SBRC R17, 4 // Limitar el contador a 4 bits
     CLR R17 //De ser necesario elimina el registro por overflow
 	RJMP LEDS2 //Llama a la funcion para desplegar los valores
 	RJMP loop
 
 decre2:
 	DEC R17 //Decrementa la cuenta de la segunda fila de leds
-    SBRC R17, 7 ; Limitar el contador a no tener numeros negativos
+    SBRC R17, 7 // Limitar el contador a no tener numeros negativos
     CLR R17 //De ser necesario elimina el registro por overflow
 	RJMP LEDS2 //Llama a la funcion para desplegar los valores
 	RJMP loop
